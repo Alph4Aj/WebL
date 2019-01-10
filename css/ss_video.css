@@ -1,0 +1,312 @@
+body
+{
+    background-image: url("../images/IMAGES.png");
+	background-size: 150%;
+    
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  font-family:fantasy,sans-serif;
+  font-size: 15pt;
+
+    
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: purple;
+}
+
+.active {
+  background-color: purple;
+}
+
+img
+{
+   
+  position: absolute;
+  top: -50px;
+  
+    height: 150px;
+}
+
+
+ /*media query for when is used in desktop*/   
+@media only screen and (min-width: 992px) 
+
+{ 
+    width:50%;
+    
+#zero
+{
+   
+    position: absolute;
+    top: 10%;
+    left: 5%;
+   border: 60px;
+}
+
+#backUpLinkZero
+{
+    text-decoration: none;
+    position: absolute;
+    top: 41%;
+    left: 5%;
+    font-family:fantasy,sans-serif;
+  font-size: 8pt;
+  
+    
+    
+}
+
+#believer
+{
+   position: absolute;
+    top: 10%;
+    left: 38%;
+    font-family:fantasy,sans-serif;
+  font-size: 1pt;
+    color: black; 
+    border: 60px;
+    
+}
+
+#backUpLinkBeliever
+{
+    text-decoration: none;
+    position: absolute;
+    top: 41%;
+    left: 38%;
+    font-family:fantasy,sans-serif;
+  font-size: 8pt;
+    
+}
+
+#natural 
+{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    font-family:fantasy,sans-serif;
+  font-size: 1pt;
+    border: 60px;
+    
+}
+
+#backUpLinkNatural
+{
+     text-decoration: none;
+    position: absolute;
+    top: 41%;
+    left: 70%;
+    font-family:fantasy,sans-serif;
+  font-size: 8pt;
+    
+}
+    
+#thunder
+{
+     position: absolute;
+    top: 55%;
+    left: 5%;
+   border: 60px;
+}
+
+#backUpLinkThunder
+{
+    text-decoration: none;
+    position: absolute;
+    top: 86%;
+    left: 5%;
+    font-family:fantasy,sans-serif;
+  font-size: 8pt;
+}
+
+#radioactive
+{
+   position: absolute;
+    top: 55%;
+    left: 38%;
+   border: 60px;   
+}
+
+#backUpLinkRadioactive
+{
+    text-decoration: none;
+    position: absolute;
+    top: 86%;
+    left: 38%;
+    font-family:fantasy,sans-serif;
+  font-size: 8pt;
+    
+}
+
+#badLiar
+{
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    font-family:fantasy,sans-serif;
+  font-size: 1pt;
+    border: 60px;
+}
+
+#backUpLinkBadLiar
+{
+   text-decoration: none;
+    position: absolute;
+    top: 86%;
+    left: 70%;
+    font-family:fantasy,sans-serif;
+  font-size: 8pt; 
+}
+
+}
+
+/* media query for mobile phones*/
+@media only screen and (max-width: 600px) 
+{
+    width:25%;
+    
+    #zero
+{
+   
+    position: absolute;
+    top: 10%;
+    left: 5%;
+   border: 60px;
+}
+
+#backUpLinkZero
+{
+    text-decoration: none;
+    position: absolute;
+    top: 41%;
+    left: 5%;
+    font-family:fantasy,sans-serif;
+  font-size: 8pt;
+  
+    
+    
+}
+
+#believer
+{
+   position: absolute;
+    top: 10%;
+    left: 38%;
+    font-family:fantasy,sans-serif;
+  font-size: 1pt;
+    color: black; 
+    border: 60px;
+    
+}
+
+#backUpLinkBeliever
+{
+    text-decoration: none;
+    position: absolute;
+    top: 41%;
+    left: 38%;
+    font-family:fantasy,sans-serif;
+  font-size: 8pt;
+    
+}
+
+#natural 
+{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    font-family:fantasy,sans-serif;
+  font-size: 1pt;
+    border: 60px;
+    
+}
+
+#backUpLinkNatural
+{
+     text-decoration: none;
+    position: absolute;
+    top: 41%;
+    left: 70%;
+    font-family:fantasy,sans-serif;
+  font-size: 8pt;
+    
+}
+    
+#thunder
+{
+     position: absolute;
+    top: 55%;
+    left: 5%;
+   border: 60px;
+}
+
+#backUpLinkThunder
+{
+    text-decoration: none;
+    position: absolute;
+    top: 86%;
+    left: 5%;
+    font-family:fantasy,sans-serif;
+  font-size: 8pt;
+}
+
+#radioactive
+{
+   position: absolute;
+    top: 55%;
+    left: 38%;
+   border: 60px;   
+}
+
+#backUpLinkRadioactive
+{
+    text-decoration: none;
+    position: absolute;
+    top: 86%;
+    left: 38%;
+    font-family:fantasy,sans-serif;
+  font-size: 8pt;
+    
+}
+
+#badLiar
+{
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    font-family:fantasy,sans-serif;
+  font-size: 1pt;
+    border: 60px;
+}
+
+#backUpLinkBadLiar
+{
+   text-decoration: none;
+    position: absolute;
+    top: 86%;
+    left: 70%;
+    font-family:fantasy,sans-serif;
+  font-size: 8pt; 
+}
+} 

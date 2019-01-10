@@ -1,0 +1,97 @@
+body
+{
+    background-color: white;
+	background-size: 100%;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  font-family:fantasy,sans-serif;
+  font-size: 15pt;
+
+    
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: purple;
+}
+
+.active {
+  background-color: purple;
+}
+
+img
+{
+   
+   position: absolute;
+  top: -50px;
+  
+    height: 150px;
+
+}
+
+.parallax { 
+ 
+  background-image: url("../images/Website-pop-up-1.jpg");
+
+ 
+  height: 500px; 
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* media query for whhen the browser is on different sizes+
+-*/
+@media only screen and (min-width: 992px) 
+    
+{
+    width:50%;
+#map
+{
+    position: absolute;
+    top: 80%;
+}
+
+#box
+{
+     height:500px;
+    background-color: white;
+    opacity: .0.1
+   
+    
+}
+
+#bottlerock 
+{
+    
+   
+   
+   position: absolute;
+    top:80%;
+    right: 20%;     
+    
+}
+
+}

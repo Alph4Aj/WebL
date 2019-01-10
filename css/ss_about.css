@@ -1,0 +1,83 @@
+body
+{
+    background-color: white;
+	background-size: 100%;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  font-family:fantasy,sans-serif;
+  font-size: 15pt;
+
+    
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: purple;
+}
+
+.active {
+  background-color: purple;
+}
+
+img
+{
+   
+   position: absolute;
+  top: -50px;
+  
+    height: 150px;
+
+}
+
+
+/* this would be the image and the styles I used to create the parallax effect */
+.parallax { 
+ 
+  background-image: url("../images/imaginedragons-hero-529045186.jpg");
+
+ 
+  height: 500px; 
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box
+{
+     height:500px;
+    background-color:white;
+    opacity: .0.1;
+    font-family: sans-serif, fantasy;
+    font-size: 20pt;
+    
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+       
